@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/NortB/v16/.suo
+/.vs/NortB/v15/Server/sqlite3/storage.ide-wal
+/.vs/NortB/v15/Server/sqlite3/storage.ide-shm
+/.vs/NortB/v15/Server/sqlite3/storage.ide
+/.vs/NortB/v15/Server/sqlite3/db.lock
+/.vs/NortB/DesignTimeBuild/.dtbcache.v2
+/.vs/NortB/config/applicationhost.config
+/NortB/bin/Debug/netcoreapp3.1
+/NortB/obj
+/NortB.Data/obj
+/NortB.Services/bin/Debug/netstandard2.0
+/NortB.Services/obj
+/NortB.Data/bin/Debug/netstandard2.0

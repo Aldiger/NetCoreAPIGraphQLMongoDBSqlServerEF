@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NortB", "NortB\NortB.csproj", "{1EB82276-4C46-4DA2-9AB8-13767848261F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NortB.Data", "NortB.Data\NortB.Data.csproj", "{E0CE5612-979D-430F-AC0C-305E997C0371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NortB.Services", "NortB.Services\NortB.Services.csproj", "{10530E58-B475-488F-94D3-7D7E0839CBFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EB82276-4C46-4DA2-9AB8-13767848261F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB82276-4C46-4DA2-9AB8-13767848261F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB82276-4C46-4DA2-9AB8-13767848261F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB82276-4C46-4DA2-9AB8-13767848261F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0CE5612-979D-430F-AC0C-305E997C0371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CE5612-979D-430F-AC0C-305E997C0371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CE5612-979D-430F-AC0C-305E997C0371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CE5612-979D-430F-AC0C-305E997C0371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10530E58-B475-488F-94D3-7D7E0839CBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10530E58-B475-488F-94D3-7D7E0839CBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10530E58-B475-488F-94D3-7D7E0839CBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10530E58-B475-488F-94D3-7D7E0839CBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19EB2983-B96A-403D-BEB6-F6784F3D0776}
+	EndGlobalSection
+EndGlobal
