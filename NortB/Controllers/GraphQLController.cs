@@ -4,6 +4,7 @@ using GraphQL.Types;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using NortB.Data;
+using NortB.Data.Core.MongoDb;
 using NortB.Data.GraphQL;
 
 namespace NortB.Controllers
@@ -13,8 +14,13 @@ namespace NortB.Controllers
     public class GraphQLController : ControllerBase
     {
         private readonly ApplicationDbContext _db;
+        private readonly IContextFactory _context;
 
-        public GraphQLController(ApplicationDbContext db) => _db = db;
+        public GraphQLController(ApplicationDbContext db, IContextFactory context)
+        {
+            _db = db;
+            _context = context;
+        } 
 
         public async Task<IActionResult> Post([FromBody] GraphQLQuery query)
         {
@@ -23,7 +29,7 @@ namespace NortB.Controllers
 
             var schema = new Schema
             {
-                Query = new AuthorQuery(_db)
+                Query = new AuthorQuery(_context.GetMongoDatabase())
             };
 
             var result = await new DocumentExecuter().ExecuteAsync(_ =>
